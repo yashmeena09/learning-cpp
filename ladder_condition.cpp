@@ -18,10 +18,19 @@ int main()
     {
         cout<<b<<"is large";
     }
+    else if(a==b && a!=c && a>c)
+    {
+        cout<<a<<"is large";
+    }
+    else if (b==c && b!=a)
+    {
+        cout<<c<<"is large";
+    }
     else if(a==b && b==c)
     {
-        cout<<"the numbres is equal";
-    }
+        cout<<"all the numbers are equal";
+    }     
+
     else 
     {
         cout<<c<<"is large";

@@ -2,8 +2,10 @@
 using namespace std;
 int main()
 {
-  const float pi=3.14;
-  int r;
-  cout<<"enter you radius \n";
-  cin>>r;
-  float c;
+    int a,b,c;
+    cout<<"enter 1\n";
+    cin>>a;
+    cout<<"enter2\n";
+    cin>>b;
+    cout<<"enter3\n";
+    cin>>c;
