@@ -1,4 +1,4 @@
-
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -7,9 +7,9 @@ int main()
  cin>>a;
  b=0;
  yash:
- if (b++<=10)
+ if (b<=10)
  {
-    cout<<a*b<<"\t";
+    cout<<b++*a<<"\t";
  }
 goto yash;
 
