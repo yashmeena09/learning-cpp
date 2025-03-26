@@ -10,8 +10,8 @@ int main()
    while ( num>0)
     {
         rimender=num%10; // 1
-        num = num/10; // 12
-         reverse =  reverse*10+rimender; //121
+        num = num/10; // 12 break the num( addition of num also)
+         reverse =  reverse*10+rimender; //121 revers number (palindriome)
    } 
     if ( k==reverse)
     {
