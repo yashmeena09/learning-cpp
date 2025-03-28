@@ -8,6 +8,6 @@ int main()
   cin>>r;
   float c;
   c= pi*r*r;
-  cout<<"c";
+  cout<<c;
   return 0;
 }

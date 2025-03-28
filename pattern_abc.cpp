@@ -2,15 +2,16 @@
 using namespace std;
 int main()
 {
- for( int r=1; r<=4;r++)
+ for( char r='a'; r<='d';r++)
  {
-    for(int s=3;s>=r;s--)
+    for( char  s='c';s>=r;s--)
     {
       cout<<" ";
     }
-    for(int c=1; c<=r;c++)
+    for(char c='a'; c<=r;c++)
     {
-        cout<<r;
+        cout<<c;
+    
     }
     cout<<"\n";
  }

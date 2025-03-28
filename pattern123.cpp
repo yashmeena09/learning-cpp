@@ -10,7 +10,8 @@ int main()
     }
     for(int c=1; c<=r;c++)
     {
-        cout<<r;
+        cout<<c;
+    
     }
     cout<<"\n";
  }
