@@ -9,10 +9,8 @@ int main()
     cin>>c;
      cout<<"enter maths marks\n";
      cin>>m;
-     if(p>=0 && )
+     if(p>=0 )
+     {
 
-
-
-
-
+     }
 }

@@ -51,7 +51,14 @@ if(amount<=1)
     amount=amount%1;
 }
  
-cout<<
+cout<<"500="<<rs500 <<"\n";
+cout<<"100="<<rs100 <<"\n";
+cout<<"50="<<rs50 <<"\n";
+cout<<"20="<<rs20 <<"\n";
+cout<<"10="<<rs10 <<"\n";
+cout<<"5="<<rs5 <<"\n";
+cout<<"2="<<rs2 <<"\n";
+cout<<"1="<<rs1 <<"\n";
 
 return 0;
 }

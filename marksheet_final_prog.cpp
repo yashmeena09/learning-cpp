@@ -5,7 +5,7 @@ int main()
     float p,c,m,tot,per;
     cout<<"enter your p,c,m marks\n";
     cin>>p>>c>>m;
-    tot=(p+c+m)/3;
+    tot=(p+c+m);
     per=tot/3;
     if(p<0 || p>100 || c<0 || c>100 || m<0 || m>100)
     {
