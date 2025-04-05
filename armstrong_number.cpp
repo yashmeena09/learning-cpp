@@ -4,12 +4,12 @@ int main ()
 {
     int n,s ,a, k;
     k=n;
-    cout<<"enter exact 3 digit number \n ";
+    cout<<"enter exact 3 digit number \n ";//153
     cin>>n;
     {
      do 
      {
-        a=n%10;
+        a=n%10;//3
         s=s+(a*a*a);
         n=n/10;
      }while(n>0);
