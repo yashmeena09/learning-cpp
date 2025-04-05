@@ -11,7 +11,7 @@ int main()
     {
         
         case 1:
-        {
+        { 
             cout<<a+b;
             break;
         }
